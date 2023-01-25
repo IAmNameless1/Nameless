@@ -1,13 +1,661 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.body{
+
+    font-family: 'Rubik', sans-serif;
+    background-color:#10101a
+}
+.body .hr1{
+    content: "";
+    position: absolute;
+    top: 94rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    height: 2px;
+    background: #fff;
+    opacity: 0.2;
+    width:60%
+}
+.body .hr2{
+    content: "";
+    position: absolute;
+    top: 150rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    height: 2px;
+    background: #fff;
+    opacity: 0.2;
+    width:60%
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.body .hr3{
+    content: "";
+    position: absolute;
+    top: 278rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    height: 2px;
+    background: #fff;
+    opacity: 0.2;
+    width:60%
 }
+
+span{
+    color:#e63946;
+}
+.nav_bar , .logo{
+    color:white;
+    transition: transform 330ms ease-in-out;
+    font-family: 'EB Garamond', serif;
+
+}
+.nav_bar:hover{
+    color:gray;
+    transform: scale(1.5);
+    
+}
+
+.intro{
+  position:absolute;
+  top:13rem;  
+  left:31rem;
+  font-family: 'EB Garamond', serif;
+}
+
+.social{
+    display:inline-flex;
+    padding-left:8rem;
+}
+.social_media{
+    display:inline-block;
+    background: #ffffff;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+    font-size:23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+    box-shadow: 0 10px 10px rgba(225,225,225, 0.1);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);  
+}
+.intro h1,h3{
+    color:white;
+    padding:2px;
+}
+.intro h1 {
+    font-size:5rem;
+}
+
+.nav{
+    position:fixed;
+    z-index:5;
+}
+
+.btn {
+    display:block;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color:#ffffff;
+    font-size: 15px;
+    background: #e64e4e;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+   }
+.button{
+    padding-left:15rem;
+  }
+
+  .full_about h1{
+    color:white;
+  }
+.full_about .cv{
+    padding:25px;
+   position:relative;
+   top:5rem;
+}
+.full_about .image{
+    position:relative;
+    top:3rem;
+    left:6rem;
+    width:50%;
+    height:25%;
+}
+.full_about p{
+    padding:20px;
+    color:gray;
+}
+.full_about span{
+    font-size:55px;
+    display:inline-block;
+}
+.full_about h2{
+    color:gray;
+    display:inline-block;
+    width:30px;
+    font-size:20px;
+    margin-right:7rem;
+    padding-left:10px;
+    padding-bottom:40px
+}
+.detailbox h3{
+    background-color:#e63946;
+    color:white;
+    width:18%;
+    position:relative;
+    top:-25px;
+    left:-25px;
+    box-shadow: 5px 5px white;
+}
+
+.detailbox h2{
+   color:#e63946;
+   position:relative;
+   top:-8rem;
+   left:25rem;
+}
+
+.detailbox{
+    padding:8px;
+    background-color:black;
+    margin-top:35px;
+    width:80%;
+}
+.education h1{
+    color:white;
+    margin-bottom:20px
+}
+.education .span{
+    position:relative;
+    top:-20px;
+    display:inline-block;
+}
+.education p{
+    color:gray;
+}
+.skill h2{
+    color:white;
+
+}
+.bar_name{
+   color:white; 
+}
+.skill .span {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background:#e63946;
+    position:relative;
+    top:-4px;
+    left:-7px;
+    display:inline-block;
+}
+
+.deco{
+    color:white;
+    text-decoration:underline;
+    text-decoration-color:#e63946;
+    text-underline-offset:20px;
+    text-decoration-thickness:2px;
+}
+
+.span{
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background:#e63946;
+    position:relative;
+    top:-11px;
+    left:7.5rem;
+}
+.full_about .span{
+    top:-2px;
+    left:10rem;
+    display:inline-block;
+}
+
+.full_Projects h1{
+color:white
+}
+
+.full_Projects .span {
+    display:inline-block;
+    position:relative;
+    top:0px;
+    left:12.5rem;
+}
+
+.full_Projects .individual{
+    background-color:#edf2f4;
+}
+.full_Projects p{
+    color:#e63946;
+    display:inline-block;
+    padding-right:4rem;
+    margin:5px;
+    font-size:18px;
+}
+
+.full_Projects .individual h1{
+    color:black;
+}
+
+.full_Projects .individual .zoom:hover{
+    transform: scale(1.2); 
+    transition: transform 400ms ease-in-out;
+}
+
+.contact .span{
+    position:relative;
+    left:12rem;
+    display:inline-block;
+}
+
+.contact h3{
+    position:relative;
+    left:7rem;
+}
+.contact p{
+    position:relative;
+    left:6rem;
+}
+.contact .so{
+    position:relative;
+    left:-4rem;
+}
+.contact h2{
+    color:white;
+    display:block;
+    position:relative;
+    padding:5px;
+    left:8.5rem;
+}
+
+.techskill{
+    height:50%;
+}
+
+.techskill h1{
+    color:white;
+    position:relative;
+    text-align:center;
+    margin:10px;
+}
+.techskill .span{
+     position:relative;
+     left:45rem;
+     top:-10px;
+     display:inline-block;
+
+}
+.techskill h2{
+    text-decoration:underline;
+    text-decoration-color:#e63946;
+    text-underline-offset:15px;
+    text-decoration-thickness:2px;
+    text-decoration-opacity:0.5;
+}
+
+
+.techskill  ls{
+    display:block;
+    margin:20px;
+    font-size:20px;
+}
+.bars{
+    color:gray;
+    font-size:30px;
+    width:fit-content;
+    position:relative;
+    margin-left:auto;
+}
+.mob-header {
+    padding: 12px;
+    display: none;
+    position: fixed;
+    width:100%;
+    z-index: 11;
+    background-color:#10101a;
+    height:60px;
+}
+.d-flex{
+    display:flex;
+     align-items:center;
+}
+
+
+
+
+@media only screen and (min-width: 460px) {
+.background{
+    background-attachment:fixed;
+  }
+  .ts{
+    margin-left:120px;
+    margin-bottom:20px;
+  }
+  .techskill  .frontend  {
+    background-color:white;
+    position:relative;
+    left:10rem;
+    top:3rem;
+    padding:25px;
+    display:inline-block;
+}
+
+.techskill  .Backend  {
+    background-color:white;
+    position:relative;
+    left:13rem;
+    top:-10rem;;
+    padding:25px;
+    display:inline-block;
+}
+
+.techskill  .Database  {
+    background-color:white;
+    position:relative;
+    padding:25px;
+    display:inline-block;
+    left:-9rem;
+    top:3rem;
+}
+
+.techskill  .Version  {
+    background-color:white;
+    position:relative;
+    padding:25px;
+    display:inline-block;
+    top:3rem;
+    left:-7rem;
+}
+.techskill  .Hosting{
+    background-color:white;
+    position:relative;
+    display:inline-block;
+    top:-9rem;
+    left:16rem;
+}
+.techskill  .Programming{
+    background-color:white;
+    position:relative;
+    display:inline-block;
+    left:60rem;
+    top:-25rem;
+}
+
+}
+@media only screen and (max-width: 460px) {
+    .navbar-brand-normal{
+        display:none;
+    }
+    .mob-header{
+        display:block;
+    }
+    .nav{
+        display:none;
+        width:100%;
+    }
+    .logo{
+        position:relative;
+        left:10px;
+        font-size:30px;
+    }
+    .intro{
+        position:relative;
+        left:0rem;
+        width:90%  ;
+        margin-left:0.8rem;
+        top:13rem;
+        padding:5px;
+    }
+    .home{
+        padding:0px;
+    }
+    .intro h1{
+        position:relative;
+        margin-left:40px;
+        font-size:32px;
+    }
+    .intro h3{
+        position:relative;
+        top:-5px;
+        font-size:22px;
+        padding:0px;
+        margin-left:25px;
+    }
+    .intro .social{
+        position:relative;
+        left:-7rem;
+    }
+    .intro .social .social_media{
+        font-size:20px;
+        width:10px;
+        height:10px;
+        position:relative;
+        top:-20px;
+        left:20px;
+    }
+    .intro .button{
+        position:relative;
+        top:-20px;
+        left:-6rem;
+    }
+    .intro .button .btn{
+        font-size:10px;
+    }
+    .full_about{
+        padding:5px;
+        padding-top:5rem;
+    }
+    .full_about h1{
+        width:fit-content;
+        padding:0px;
+        position:relative;
+        margin:0;
+        top:-2rem;
+        margin-left:8rem;
+        font-size:35px;
+    }
+    .full_about span{
+        font-size:35px;
+    }
+    .full_about .span{
+        left:10.5rem;
+        top:-30px;
+    }
+    .full_about .image {
+        top: 0rem;
+        left:0rem;
+        margin-left:5rem;
+        height: 100%;
+    }
+    .full_about .cv h1{
+        margin-left:1rem;
+        top:-2rem;
+        font-size:23px;
+        text-align:justify
+    }
+    .full_about .cv p{
+        position:relative;
+        left:10px;
+        top:-15px;
+    }
+    .full_about .cv .ach{
+        position:relative;
+        left:25px;
+    }
+    .hr1,.hr2,.hr3{
+        display:none;
+    }
+
+    .full_about .cv h2{
+        position:relative;
+         font-size:15px;
+         margin-right:4rem;
+    }
+    .full_about .cv .btn{
+        position:relative;
+        font-size:12px;
+        margin-left:7.5rem;
+        margin-right:6rem;
+    }
+  
+    .education{
+        margin:10px;
+        margin-top:6.5rem;
+        padding:10px;
+     }
+    
+     .education h1{
+        font-size:30px;
+        position:relative;
+        margin-left:2rem;
+        top:-3px;
+     }
+     .education .detailbox{
+        position:relative;
+        left:40px;
+     }
+     .education .detailbox h1{
+        font-size:20px;
+        left:0;
+        padding:5px;
+     }
+     .education .detailbox p{
+        font-size:19px;
+        position:relative;
+        top:-10px;
+     }
+     .education .detailbox h3{
+        font-size:15px;
+        width:30%
+     }
+     .education .detailbox h2{
+        font-size:18px;
+        position:relative;
+        left:0rem;
+        margin-left:13rem;
+        top:-12rem;
+        font-weight:bold;
+     }
+    .skill{
+        padding:15px
+    }
+    .skill h2{
+        margin-bottom:25px;
+    }
+    .skill p{
+        margin-bottom:25px;
+    }
+    .techskill .ts{
+        width:50%;        
+    }
+    .techskill .span{
+        left:9.3rem
+    }
+    .techskill .frontend, .techskill .Backend,.techskill .Version,.techskill .Programming,.techskill .Hosting,.techskill .Database {
+        background-color:white;
+        padding:15px;
+        margin-top:4rem;
+    }
+    .ts{
+     padding:30px;
+     width:100%!important;
+    }
+    .ts .w-fit{
+        width:100%;
+        text-align:center;   
+    }
+    .contact .cv1{
+       position:relative;
+       left:-4rem;
+      
+    }
+    .contact .cv1 p{
+        padding:10px 0;
+        width:70%;
+        margin-left:8rem;
+        margin-right:0 !important;
+        left:0;
+        right:0;
+    }
+    .contact .cv1 h1{
+        padding:10px 0;
+        width:60%;
+        margin-left:9rem;
+        margin-right:0 !important;
+        top:-20px;
+        left:0;
+        right:0;
+    }
+    .contact .cv1 h3{
+        width:80%;
+        margin-left:8rem;
+        margin-right:0 !important;
+        left:0;
+        right:0;
+    }
+    .contact .cv1 h2{
+        width:50%;
+       margin-left:150px;
+       margin-right:0;
+       right:0;
+       left:0;
+    }
+    .contact .cv1 .so{
+        padding-left:20px;
+    }
+    .contact .cv{
+        position:relative;
+        top:-1rem;
+    }
+    .contact .span{
+    left:12.8rem;
+    }
+    .contact .cv .btn{
+        positionL:relative;
+        left:10px;
+        margin-left:80px;
+    }
+    .full_Projects{
+        padding:5px;
+    }
+    .full_Projects h1{
+        font-size:38px;
+        margin-top:35px;
+        padding-left:0;
+    }
+    .full_Projects .span{
+        left:8rem;
+        top:1px;
+    }
+    .full_Projects .individual{
+        padding:10px;
+        margin:1.25rem 0;
+    }
+    .full_Projects .individual h1{
+        font-size:30px;
+    }
+    .full_Projects .individual p ,  .full_Projects .individual a {
+        display:inline-block;
+        width:fit-content;
+        padding:2px;
+    }
+
+  }
+
