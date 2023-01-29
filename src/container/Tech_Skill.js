@@ -1,6 +1,6 @@
 
 
-export default function Marketing Skills() {
+export default function Techskill() {
     return (
           <div className="techskill">
             <h1 className="text-5xl"> <span className="deco">Acquir</span>ed Skills</h1><div className="span w-fit"></div>
