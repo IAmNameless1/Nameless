@@ -15,7 +15,7 @@ export default function Projectrow() {
             <Project p="https://firdosh008.github.io/hotle-/" s="https://github.com/firdosh008/hotle-" src={P1} name="SRA Company Hotle"/>
             </div>
              <div className="lg:col-start-2 lg:col-end-3">
-             <Project p="https://avsfffgsfgwt43.my.canva.site/" s="" src={P2} name="Personal Travel Blog"/>
+             <Project p="https://avsfffgsfgwt43.my.canva.site/"/>
              </div>
              <div className="lg:col-start-3 lg:col-end-4">
              <Project p="https://firdosh008.github.io/dicegame/" s="https://github.com/firdosh008/dicegame" src={P3} name="Dice Toss Game"/>
