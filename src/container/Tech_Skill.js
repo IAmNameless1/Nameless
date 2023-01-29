@@ -1,60 +1,66 @@
 
 
-export default function Techskill() {
+export default function Marketing Skills() {
     return (
           <div className="techskill">
-            <h1 className="text-5xl"> <span className="deco">Tec</span>h Skills</h1><div className="span w-fit"></div>
+            <h1 className="text-5xl"> <span className="deco">Acquir</span>ed Skills</h1><div className="span w-fit"></div>
             <div className="ts">
             <div className="frontend rounded-lg w-fit">
-                <h2  className="text-4xl font-extrabold">Frontend</h2>
+                <h2  className="text-4xl font-extrabold">Digital Marketing</h2>
                  <ul className="mt-7">
-                    <ls>HTML5</ls>
-                    <ls>CSS3</ls>
-                    <ls>JavaScript</ls>
-                    <ls>Bootstrap</ls>
-                    <ls>React</ls>
-                    <ls>Tailswind</ls>
-                    <ls>React Bootstrap</ls>
+                    <ls>SEO</ls>
+                    <ls>SEM</ls>
+                    <ls>Content Marketing</ls>
+                    <ls>FAcebook Marketing</ls>
+                    <ls>Competitor Analysis</ls>
+                    <ls>E-mail Marketing</ls>
+                    <ls>Social Media Marketing</ls>
                  </ul>
             </div>
             <div className="Backend rounded-lg w-fit">
-                <h2 className="text-4xl font-extrabold">Backend</h2>
+                <h2 className="text-4xl font-extrabold">Paid Marketing</h2>
                  <ul>
-                    <ls>Node.js</ls>
-                    <ls>Express</ls>
-                    <ls>Ejs</ls>
+                    <ls>Google Ads</ls>
+                    <ls>Facebook Ads</ls>
+                    <ls>Search Engine Marketing</ls>
                  </ul>
             </div>
 
             <div className="Hosting rounded-lg w-fit">
-                <h2 className="text-4xl  font-extrabold">Hosting</h2>
+                <h2 className="text-4xl  font-extrabold">Other Skills</h2>
                  <ul>
-                    <ls>Heroku</ls>
-                    <ls>GitHub Pages</ls>
+                    <ls>Video Editing</ls>
+                    <ls>Canva</ls>
+                    <ls>Excel</ls>
+                    <ls>Photo Editing</ls>
                  </ul>
             </div>
 
             <div className="Database rounded-lg w-fit">
-                <h2 className="text-4xl font-extrabold">Database</h2>
+                <h2 className="text-4xl font-extrabold">Tools</h2>
                  <ul>
-                    <ls>MongoDb</ls>
+                    <ls>Google Search console</ls>
+                    <ls>Screaming Frog</ls>
+                    <ls>FB Ads Manager</ls>
+                    <ls>Uber Suggest</ls>
+                    <ls>SEMRUSH</ls>
                  </ul>
             </div>
 
             <div className="Version rounded-lg w-fit">
-                <h2 className="text-4xl font-extrabold">Version Control</h2>
+                <h2 className="text-4xl font-extrabold">Customize For Yourself</h2>
                  <ul>
-                    <ls>Git</ls>
+                    <ls>Nothing</ls>
                  </ul>
             </div>
 
             <div className="Programming rounded-lg w-fit ">
-                <h2 className="text-4xl  font-extrabold">Language</h2>
+                <h2 className="text-4xl  font-extrabold">Languages</h2>
                  <ul>
-                    <ls>JavaScript</ls>
-                    <ls>Python</ls>
-                    <ls>C++</ls>
-                    <ls>C</ls>
+                    <ls>English</ls>
+                    <ls>Hindi</ls>
+                    <ls>Urdu</ls>
+                    <ls>Arabic</ls>
                  </ul>
             </div>
 

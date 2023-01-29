@@ -9,7 +9,7 @@ export default function Intro() {
       <h1 className= "font-bold ">Mohammad Firoz</h1>
       <h3 className='text-4xl m-2 px-20 font-mono font-extralight'>I'm a <span className='autotype'>
         <Typed 
-        strings={["MERN Stack Developer.","Coder.","UI/UX Designer."]}
+        strings={["Digital Marketer.","SEO Expert.","Video Editor.","Content Creator"]}
          typeSpeed={50}
          backSpeed={50}
          loop

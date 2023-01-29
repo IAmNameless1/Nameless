@@ -7,18 +7,21 @@ export default function EDUCTAION() {
             <h1 className="text-5xl"> <span className="deco">EDUC</span>TAION  & SKILL</h1><div className="span "></div>
             <div id="education" className="grid lg:grid-cols-2 pt-10 ">
                 <div className="grid lg:col-start-1 lg:col-span-1 ">
-                    <Detailbox year="2008-2019" name="Secondary School Education" detail="I completed it from The Himalayan Public School. " cgp="9.1/10"/>
-                    <Detailbox year="2021-2025" name="B-tech Computer Science" detail="Completed My Web-development course from Udemy " cgp="9.2/10"/>
-                    <Detailbox year="2021-2022" name="Web Development" detail="I am Currently doing my bachlores from Graphic Era Hill University " cgp="8/10"/>
+                    <Detailbox year="2014" name="Secondary School Education" detail="I completed it from The Himalayan Public School. " cgp="8.2/10"/>
+                    <Detailbox year="2016" name="Senior Secondary School Education" detail="I completed it from The Himalayan Public School. " cgp="7.2/10"/>
+                    <Detailbox year="2019-2022" name="Bachelor of Computer Application" detail="Completed My Graduation From IGNOU"/>
+                    <Detailbox year="2022" name="Digital MArketing" detail="I Did My Digital Marketing Certification from MyCaptain" cgp="8/10"/>
                 </div>
                 <div className="grid lg:col-start-2 lg:col-span-1 skill ">
                  <h2 className="text-5xl pt-10 w-fit h-fit ">My skills</h2>
-                 <p className="lg:row-start-2 lg:row-span-1 text-xl">I'm a Freelancer MERN stack Developer with over 6 Month of experience. I code and create web elements for amazing people around the world. I like work with new people. New people new Experiences.</p>
-                 <SKILL name="Frontend Development" percentage="80%"/>
-                 <SKILL name="Backend Development" percentage="70%" />
-                 <SKILL name="React Developer" percentage="40%"/>
-                 <SKILL name="UI/UX Designer" percentage="60%"/>
-                 <SKILL name="Coding" percentage="50%"/>
+                 <p className="lg:row-start-2 lg:row-span-1 text-xl">I'm a Freelancer Digital Marketer with over 7 Months of experience. I design Campaigns, Run Ads, Do SEO, Perfprm Site Audit and Competitor Analysis for businesses around around the world.</p>
+                 <SKILL name="Digital Marketing" percentage="90%"/>
+                 <SKILL name="Performane Marketing" percentage="75%"/>
+                 <SKILL name="SEO" percentage="85%" />
+                 <SKILL name="SMM" percentage="65%"/>
+                 <SKILL name="Content Marketing" percentage="70%"/>
+                 <SKILL name="Excel" percentage="70%" />
+                 <SKILL name="Video Editing" percentage="60%" />
             </div>
             </div>
         </div>

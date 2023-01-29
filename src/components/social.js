@@ -8,10 +8,9 @@ export default function Social() {
     return (
         
         <ul className='w-fit social m-2'>
-        <List className="social_media" href="https://leetcode.com/firdoshahmad/" name={<SiLeetcode/>}/>
-        <List className="social_media" href="https://www.linkedin.com/in/firdosh-ahmad-1b086b229/" name={<AiFillLinkedin/>}/>
-        <List className="social_media" href="https://www.instagram.com/f_ahma_.d/" name={<BsInstagram/>}/>
-        <List className="social_media" href="https://github.com/firdosh008" name={<BsGithub/>}/>
+        <List className="social_media" href="https://www.linkedin.com/in/mohammad-firoz-73597b12a" name={<AiFillLinkedin/>}/>
+        <List className="social_media" href="https://www.instagram.com/firoz95ahmad/" name={<BsInstagram/>}/>
+        <List className="social_media" href="https://github.com/IAmNameless1" name={<BsGithub/>}/>
         </ul>
         
     )

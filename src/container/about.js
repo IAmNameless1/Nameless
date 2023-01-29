@@ -14,14 +14,14 @@ export default function about() {
         </div>
         <div className=' lg:col-start-2 lg:col-end-3 cv'>
           <h1 className=' text-4xl'>
-            I'm a 2nd year B-tech Computer Science Student and is working as a Frelancer for last 6 month.
+            I'm a BACHELOR OF COMPUTER APPLICATION Graduate and is working as a Frelancer for last 5 month.
           </h1>
           <p>
-          I'm a Freelancer Front-end Developer with over 6 Month of experience. I'm from India, Dehradun. I code and create web elements for amazing people around the world and for my portfolio.I am also a good coder and have solve many Problems on leetcode and  on other websites. I like work with new people. New people new Experiences.
+          I'm a Digital MArketer with over 7 Months of experience. I'm from DEHRADUN, India. I help businesses grow and achieve their monthly target. As a marketer I am always up-to-date with the marketing trends. I love BRAINSTORMING when it comes to designing a  new Campaign or coming up with a new creative way to Traget the Audience.
           </p>
           <div className='ach'>
-          <span className='font-bold'>6</span><h2>Projects Completed.</h2>
-          <span className='font-bold'>300+</span><h2>Questions Solved.</h2>
+          <span className='font-bold'>8</span><h2>Industry Based Projects Completed.</h2>
+          <span className='font-bold'>4</span><h2>Certifications Acquired.</h2>
           </div>
           <Button name="Download CV" h="https://drive.google.com/file/d/1M9Iym1qDMnAvf5T6v1rxo0IVmoNMCThB/view?usp=share_link"/>
         </div>
