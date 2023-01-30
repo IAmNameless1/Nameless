@@ -10,7 +10,7 @@ export default function Contact() {
         <h1 className='text-5xl h-fit ml-12 pl-12'><span className='deco'>Con</span>tact Me.</h1><div className="span w-fit"></div>
         <h3 className="mt-5 text-2xl">Let's talk about Anything</h3>
         <p className="mr-5">Don't like forms ? Send me an email</p>
-        <h2><HiOutlineMail style={{position:"relative",top:"1.6rem",left:"-1.7rem"}} /> md.firoz95@gmail.com</h2>
+        <h2><HiOutlineMail style={{position:"relative",top:"1.6rem",left:"-1.7rem"}} /><a href="https://mail.google.com/mail/?view=cm&to=md.firoz95@gmail.com">md.firoz95@gmail.com</a></h2>
         <h2><BsPhone style={{position:"relative",top:"1.6rem",left:"-1.7rem"}}/> 7417163285, 8630135075</h2>
         <div className="so">
         <Social/>
