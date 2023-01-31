@@ -10,15 +10,13 @@ export default function Techskill() {
                  <ul className="mt-7">
                     <ls>SEO & SEM</ls>
                     <ls>Content Marketing</ls>
-                    <ls>E-mail Marketing</ls>
                     <ls>Social Media Marketing</ls>
                  </ul>
             </div>
             <div className="Backend rounded-lg w-fit">
                 <h2 className="text-4xl font-extrabold">Paid Marketing</h2>
                  <ul>
-                    <ls>Google Ads</ls>
-                    <ls>Facebook Ads</ls>
+                    <ls>Google & Facebook Ads</ls>
                     <ls>Competitor Analysis</ls>
                     <ls>Search Engine Marketing</ls>
                  </ul>
@@ -27,10 +25,8 @@ export default function Techskill() {
             <div className="Hosting rounded-lg w-fit">
                 <h2 className="text-4xl  font-extrabold">Other Skills</h2>
                  <ul>
-                    <ls>Video Editing</ls>
-                    <ls>Canva</ls>
-                    <ls>Excel</ls>
-                    <ls>Photo Editing</ls>
+                    <ls>Video&Photo Editing</ls>
+                    <ls>Canva,Excel,etc.</ls>
                  </ul>
             </div>
 
@@ -39,9 +35,7 @@ export default function Techskill() {
                  <ul>
                     <ls>Google Search console</ls>
                     <ls>Screaming Frog</ls>
-                    <ls>FB Ads Manager</ls>
                     <ls>Uber Suggest</ls>
-                    <ls>SEMRUSH</ls>
                  </ul>
             </div>
 
