@@ -48,9 +48,10 @@ export default function Techskill() {
             </div>
 
             <div className="Version rounded-lg w-fit">
-                <h2 className="text-4xl font-extrabold">Customize For Yourself</h2>
+                <h2 className="text-4xl font-extrabold">Personal Achievements</h2>
                  <ul>
-                    <ls>Nothing</ls>
+                    <ls>Self-taught Gym Trainer </ls>
+                    <ls>From an Obese to a Fit Person </ls>
                  </ul>
             </div>
 
