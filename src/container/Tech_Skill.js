@@ -8,11 +8,8 @@ export default function Techskill() {
             <div className="frontend rounded-lg w-fit">
                 <h2  className="text-4xl font-extrabold">Digital Marketing</h2>
                  <ul className="mt-7">
-                    <ls>SEO</ls>
-                    <ls>SEM</ls>
+                    <ls>SEO & SEM</ls>
                     <ls>Content Marketing</ls>
-                    <ls>FAcebook Marketing</ls>
-                    <ls>Competitor Analysis</ls>
                     <ls>E-mail Marketing</ls>
                     <ls>Social Media Marketing</ls>
                  </ul>
@@ -22,6 +19,7 @@ export default function Techskill() {
                  <ul>
                     <ls>Google Ads</ls>
                     <ls>Facebook Ads</ls>
+                    <ls>Competitor Analysis</ls>
                     <ls>Search Engine Marketing</ls>
                  </ul>
             </div>
