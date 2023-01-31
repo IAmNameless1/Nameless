@@ -53,16 +53,6 @@ export default function Techskill() {
                  </ul>
             </div>
 
-            <div className="Programming rounded-lg w-fit ">
-                <h2 className="text-4xl  font-extrabold">Languages</h2>
-                 <ul>
-                    <ls>English</ls>
-                    <ls>Hindi</ls>
-                    <ls>Urdu</ls>
-                    <ls>Arabic</ls>
-                 </ul>
-            </div>
-
             </div>
             
             
