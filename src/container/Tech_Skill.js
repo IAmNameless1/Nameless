@@ -23,7 +23,7 @@ export default function Techskill() {
             </div>
 
             <div className="Hosting rounded-lg w-fit">
-                <h2 className="text-4xl  font-extrabold">Other Skills</h2>
+                <h2 className="text-4xl  font-extrabold">Tools</h2>
                  <ul>
                     <ls>Google Search console</ls>
                     <ls>Screaming Frog</ls>
@@ -32,7 +32,7 @@ export default function Techskill() {
             </div>
 
             <div className="Database rounded-lg w-fit">
-                <h2 className="text-4xl font-extrabold">Tools</h2>
+                <h2 className="text-4xl font-extrabold">Other Skills</h2>
                  <ul>
                  <ls>Video&Photo Editing</ls>
                  <ls>Canva,Excel,etc.</ls>
