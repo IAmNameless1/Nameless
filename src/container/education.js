@@ -13,7 +13,7 @@ export default function EDUCTAION() {
                     <Detailbox year="2022" name="Digital MArketing" detail="I Did My Digital Marketing Certification from MyCaptain" cgp="8/10"/>
                 </div>
                 <div className="grid lg:col-start-2 lg:col-span-1 skill ">
-                 <h2 className="text-5xl pt-10 w-fit h-fit ">My skills</h2>
+                 <h2 className="text-5xl pt-10 w-fit h-fit ">My Skills</h2>
                  <p className="lg:row-start-2 lg:row-span-1 text-xl">I'm a Freelancer Digital Marketer with over 5 Months of experience. I design Campaigns, Run Ads, Do SEO, Perfprm Site Audit and Competitor Analysis for businesses around around the world.</p>
                  <SKILL name="Digital Marketing" percentage="90%"/>
                  <SKILL name="Performane Marketing" percentage="75%"/>
