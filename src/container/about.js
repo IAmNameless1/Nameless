@@ -17,7 +17,7 @@ export default function about() {
             I'm a DIGITAL MARKETER and BCA Graduate ; Working as a Frelancer for last 5 month.
           </h1>
           <p>
-          I Completed My Digital Marketer from <span className='mycap'>Mycaptain</span> with over 5 Months of Experience. I'm from DEHRADUN, India. I help businesses grow and achieve their targets. As a marketer I am always up-to-date with the marketing trends. I love BRAINSTORMING when it comes to designing a  new Campaign or coming up with a new creative way to Traget the Audience.
+          I Completed My Digital Marketing Course from <span className='mycap'>Mycaptain</span>. I'm from DEHRADUN, India. I help businesses grow and achieve their targets. As a marketer I am always up-to-date with the marketing trends. I love BRAINSTORMING when it comes to designing a  new Campaign or coming up with a new creative way to Traget the Audience.
           </p>
           <div className='ach'>
           <span className='font-bold'>8</span><h2>Industry Based Projects Completed.</h2>

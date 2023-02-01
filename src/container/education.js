@@ -14,7 +14,7 @@ export default function EDUCTAION() {
                 </div>
                 <div className="grid lg:col-start-2 lg:col-span-1 skill ">
                  <h2 className="text-5xl pt-10 w-fit h-fit ">My Skills</h2>
-                 <p className="lg:row-start-2 lg:row-span-1 text-xl">I'm a Freelancer Digital Marketer with over 5 Months of experience. I design Campaigns, Run Ads, Do SEO, Perfprm Site Audit and Competitor Analysis for businesses around around the world.</p>
+                 <p className="lg:row-start-2 lg:row-span-1 text-xl">I'm a Freelancer Digital Marketer with over 5 Months of experience. I design Campaigns, Run Ads, Do SEO, Site-audit and Competitor Analysis for businesses around around the world.</p>
                  <SKILL name="Digital Marketing" percentage="90%"/>
                  <SKILL name="Performane Marketing" percentage="75%"/>
                  <SKILL name="SEO" percentage="85%" />
