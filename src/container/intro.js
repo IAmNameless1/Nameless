@@ -5,7 +5,7 @@ import Typed from 'react-typed'
 export default function Intro() {
  
     return (
-      <div className='intro backdrop-blur-sm p-4'>
+      <div className='intro p-4'>
       <h1 className= "font-bold ">Mohammad Firoz</h1>
       <h3 className='text-4xl m-2 px-20 font-mono font-extralight'>I'm a <span className='autotype'>
         <Typed 
