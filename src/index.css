@@ -360,8 +360,8 @@ color:white
 .techskill  .Backend  {
     background-color:white;
     position:relative;
-    left:2.1rem;
-    top:-1rem;;
+    left:2rem;
+    top:-1.6rem;;
     padding:25px;
     display:inline-block;
 }
@@ -371,8 +371,8 @@ color:white
     position:relative;
     padding:25px;
     display:inline-block;
-    left:25rem;
-    top:-3.6rem;
+    left:6rem;
+    top:-1.5rem;
 }
 
 .techskill  .Version  {
@@ -380,15 +380,15 @@ color:white
     position:relative;
     padding:25px;
     display:inline-block;
-    top:1rem;
+    top:3rem;
     /**left:-10rem;**/
 }
 .techskill  .Hosting{
     background-color:white;
     position:relative;
     display:inline-block;
-    top:-9rem;
-    left:16rem;
+    top:4rem;
+    left:0rem;
 }
 .techskill  .Programming{
     background-color:white;
