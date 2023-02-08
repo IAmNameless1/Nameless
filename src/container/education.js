@@ -9,7 +9,7 @@ export default function EDUCTAION() {
                 <div className="grid lg:col-start-1 lg:col-span-1 ">
                     <Detailbox year="2014" name="Secondary School Education" detail="I completed it from The Himalayan Public School. " cgp="8.2/10"/>
                     <Detailbox year="2016" name="Senior Secondary School Education" detail="I completed it from The Himalayan Public School. " cgp="7.2/10"/>
-                    <Detailbox year="2019-2022" name="Bachelor of Computer Application" detail="Completed My Graduation From IGNOU"/>
+                    <Detailbox year="2020-2023" name="Bachelor of Computer Application" detail="From IGNOU"/>
                     <Detailbox year="2022" name="Digital MArketing" detail="I Did My Digital Marketing Certification from MyCaptain" cgp="8/10"/>
                 </div>
                 <div className="grid lg:col-start-2 lg:col-span-1 skill ">
